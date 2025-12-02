@@ -98,4 +98,17 @@ public class ProductTests(ProductFixture fixture) : IClassFixture<ProductFixture
         // Assert...
         Assert.Throws<ArgumentException>(() => fixture.Product.Update(itemNumber: "AA-12345", name: "Spikpistol", price: -1));
     }
+
+    [Fact]
+    public void Save_ShouldReturnTrue_When_Successful() => fixture.Product.Save().Should().BeTrue();
+
+    // public void Save_ShouldReturnTrue_When_Successful()
+    // {
+    //     // Act...
+    //     var result = fixture.Product.Save();
+
+    //     // Assert...
+    //     Assert.True(result);
+    //     // Assert.Throws<ArgumentException>(() => fixture.Product.Save());
+    // }
 }

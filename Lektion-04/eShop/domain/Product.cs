@@ -33,4 +33,9 @@ public class Product(string itemNumber, string name, decimal price)
             throw new ArgumentException("Pris kan inte vara lägre än 0");
         }
     }
+
+    public bool Save()
+    {
+        return true;
+    }
 }
