@@ -16,4 +16,13 @@ public class Customer
 
         throw new ArgumentException("Information saknas");
     }
+
+    public bool Update()
+    {
+        if (LastName.Trim().Length > 0 && Email.Trim().Length > 0)
+        {
+            return true;
+        }
+        throw new ArgumentException("Information saknas");
+    }
 }
