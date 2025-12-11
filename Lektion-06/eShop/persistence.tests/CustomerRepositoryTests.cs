@@ -34,11 +34,62 @@ public class CustomerRepositoryTests
         Customer customer = new()
         {
             FirstName = "Michael",
-            LastName = "Gustavsson"
+            LastName = "Gustavsson",
+            Email = "mg@gmail.com"
         };
 
         // Act...
         bool result = repo.AddCustomer(customer);
+
+        // Assert...
+        Assert.True(result);
+    }
+
+    [Fact]
+    public void FindCustomerByIdShouldReturnCustomerFromDb()
+    {
+        // Arrange...
+        CustomerRepository repo = CreateRepository();
+
+        // Act...
+        Customer? result = repo.GetCustomerById(1);
+        // Assert...
+        Assert.NotNull(result);
+    }
+
+    [Fact]
+    public void FindCustomerByLastShouldReturnCustomersFromDb()
+    {
+        // Arrange...
+        CustomerRepository repo = CreateRepository();
+
+        // Act...
+        IList<Customer>? result = repo.GetCustomerByLastName("Gustavsson");
+
+        // Assert...
+        Assert.NotNull(result);
+    }
+
+    [Fact]
+    public void UpdateCustomerEmailShouldUpdateCustomerToDb()
+    {
+        // Arrange...
+        CustomerRepository repo = CreateRepository();
+
+        // Act...
+        bool result = repo.UpdateCustomerEmail(1, "michael@gmail.com");
+        // Assert...
+        Assert.True(result);
+    }
+
+    [Fact]
+    public void DeleteCustomerShouldRemoveFromDb()
+    {
+        // Arrange...
+        CustomerRepository repo = CreateRepository();
+
+        // Act...
+        bool result = repo.DeleteCustomer(1);
 
         // Assert...
         Assert.True(result);
