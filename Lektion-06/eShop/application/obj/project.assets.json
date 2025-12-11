@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-05/eShop/application/application.csproj",
+      "projectUniqueName": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/application/application.csproj",
       "projectName": "application",
-      "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-05/eShop/application/application.csproj",
+      "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/application/application.csproj",
       "packagesPath": "/Users/michaelgustavsson/.nuget/packages/",
-      "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-05/eShop/application/obj/",
+      "outputPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michaelgustavsson/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-05/eShop/domain/domain.csproj": {
-              "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-05/eShop/domain/domain.csproj"
+            "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/domain/domain.csproj": {
+              "projectPath": "/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/domain/domain.csproj"
             }
           }
         }
