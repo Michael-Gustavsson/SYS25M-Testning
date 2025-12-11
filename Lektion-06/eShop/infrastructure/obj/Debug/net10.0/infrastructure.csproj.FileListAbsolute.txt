@@ -34,3 +34,5 @@
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/infrastructure/obj/Debug/net10.0/refint/infrastructure.dll
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/infrastructure/obj/Debug/net10.0/infrastructure.pdb
 /Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/infrastructure/obj/Debug/net10.0/ref/infrastructure.dll
+/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/infrastructure/bin/Debug/net10.0/persistence.dll
+/Users/michaelgustavsson/Documents/Development/Courses/SYSÄ25M/Testning/GitHub/Lektion-06/eShop/infrastructure/bin/Debug/net10.0/persistence.pdb
