@@ -1,0 +1,9 @@
+CREATE DATABASE eShopTest;
+
+USE eShopTest;
+
+CREATE TABLE Customers (
+  Id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  FirstName varchar(15) NOT NULL,
+  LastName varchar(30) NOT NULL
+);
